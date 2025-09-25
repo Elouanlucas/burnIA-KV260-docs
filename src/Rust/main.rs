@@ -1,6 +1,6 @@
 use burn::tensor::Tensor;
 use burn::tensor::backend::Backend;
-use burn_ndarray::NdArrayBackend; // <- ça devrait fonctionner avec la bonne version
+use burn_ndarray::NdArrayBackend;
 use image::ImageReader;
 mod generated_model;
 use generated_model::Model;
