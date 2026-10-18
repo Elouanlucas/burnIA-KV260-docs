@@ -1,30 +1,24 @@
+# ⚡ burnIA - Kria KV260 Documentation
 
-# burnIA-KV260-docs
+Bienvenue sur le dépôt de documentation et de ressources techniques dédié au déploiement de modèles d'intelligence artificielle et de vision par ordinateur sur la carte d'évaluation **AMD Xilinx Kria KV260 Vision AI Starter Kit**.
 
-This repository, burnIA-KV260-docs, gathers documentation and resources for the BurnIA project on the Xilinx Kria KV260 development board, focused on artificial intelligence and embedded applications. The goal is to provide a clear guide for installing, configuring, deploying, and using AI models on this platform.
+---
 
-Repository Contents
+## 🎯 Objectif du Projet
+Ce dépôt centralise les notes, procédures d'installation, configurations et retours d'expérience liés à l'exploitation de la plateforme Kria KV260 pour des cas d'usage en **Edge AI** et **systèmes embarqués intelligents**.
 
-README.md: General overview of the project and main instructions.
+---
 
-docs/: Technical documentation, user guides, and tutorials for installation and configuration.
+## 🛠️ Stack & Technologies
+* **Matériel :** AMD Xilinx Kria K26 SOM + KV260 Carrier Card
+* **Système :** PetaLinux / Ubuntu pour Kria
+* **Outils de développement :** AMD Vivado, Vitis, Vitis AI
+* **Domaines :** Vision par ordinateur, accélération matérielle FPGA, inférence sur le瀨 bord (Edge).
 
-src/: Source code and scripts associated with the BurnIA project.
+---
 
-Data_IA/: Datasets and resources for the AI models used on the KV260.
-
-Project Objectives
-
-Deploy AI models on the KV260 board.
-
-Provide a complete guide for users and developers to utilize this board for embedded applications.
-
-Centralize resources, scripts, and examples to simplify development and testing.
-
-Target Audience
-
-Students and researchers in embedded AI.
-
-Developers interested in experimenting with the Kria KV260.
-
-Anyone looking to deploy AI models on embedded FPGA platforms.
+## 📂 Structure du Dépôt
+```text
+├── docs/             # Guides et documentations techniques détaillées
+├── scripts/          # Scripts utilitaires d'automatisation ou de configuration
+└── assets/           # Schémas, captures d'écran et illustrations
