@@ -1,24 +1,24 @@
-# ⚡ burnIA - Kria KV260 Documentation
+# ⚡ HandCommand
 
-Bienvenue sur le dépôt de documentation et de ressources techniques dédié au déploiement de modèles d'intelligence artificielle et de vision par ordinateur sur la carte d'évaluation **AMD Xilinx Kria KV260 Vision AI Starter Kit**.
-
----
-
-## 🎯 Objectif du Projet
-Ce dépôt centralise les notes, procédures d'installation, configurations et retours d'expérience liés à l'exploitation de la plateforme Kria KV260 pour des cas d'usage en **Edge AI** et **systèmes embarqués intelligents**.
+**HandCommand** is an advanced computer vision application designed to control your computer, media, and applications in real-time using natural hand gestures, secured by strict biometric facial authentication.
 
 ---
 
-## 🛠️ Stack & Technologies
-* **Matériel :** AMD Xilinx Kria K26 SOM + KV260 Carrier Card
-* **Système :** PetaLinux / Ubuntu pour Kria
-* **Outils de développement :** AMD Vivado, Vitis, Vitis AI
-* **Domaines :** Vision par ordinateur, accélération matérielle FPGA, inférence sur le瀨 bord (Edge).
+## ✨ Key Features
+
+* **Biometric Security:** Real-time facial recognition authentication at startup using `face_recognition` to ensure authorized access.
+* **Gesture Control:** Powered by **OpenCV** and **MediaPipe**, tracking hand landmarks to trigger system actions smoothly.
+* **Non-Blocking HUD:** A sleek, context-aware floating HUD overlay built with **Tkinter** that displays active modes and contextual help menus.
+* **Portable Executable:** Compiled into a standalone `.exe` using **PyInstaller**, allowing seamless system-wide launching (e.g., via `Win + R`).
+* **Modular Architecture:** Clean separation of concerns featuring dedicated handlers for modes, detection, security, and OS automation actions.
 
 ---
 
-## 📂 Structure du Dépôt
-```text
-├── docs/             # Guides et documentations techniques détaillées
-├── scripts/          # Scripts utilitaires d'automatisation ou de configuration
-└── assets/           # Schémas, captures d'écran et illustrations
+## 🛠️ Tech Stack
+
+* **Language:** Python 3.12+
+* **Computer Vision & AI:** OpenCV, MediaPipe, `face_recognition`
+* **GUI / Overlay:** Tkinter (Custom modern dark styling)
+* **Automation:** `pyautogui` / system automation bindings
+* **Packaging:** PyInstaller
+  
